@@ -50,6 +50,10 @@ a {
   min-width: 118px;
 }
 
+.btn:hover {
+  background-color: #5f5b53;
+}
+
 /* header */
 
 .header {
@@ -155,4 +159,31 @@ a {
   margin-top: 30px;
   justify-content: center;
   align-items: center;
+}
+
+.nodes-make .node-btn-buy {
+  background-color: #ebac00;
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 13.2px 25px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.nodes-make .node-btn-buy:hover {
+  background-color: #5f5b53;
+}
+
+.node-both {
+  padding: 10px;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #5f5b53;
+  font-weight: 500;
+}
+
+.node-both .khung-node-both:hover {
+  color: #171100;
 }
