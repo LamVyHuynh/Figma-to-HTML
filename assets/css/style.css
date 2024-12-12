@@ -289,3 +289,48 @@ a {
 .love_buy .buy:hover {
   background-color: #5f5b53;
 }
+
+.body-shop {
+  padding: 10px;
+}
+
+.body-shop .shops {
+  font-size: 30px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.body-shop .tool-shop {
+  display: flex;
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.body-shop .tool-shop:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.body-shop .tool-shop .icon-down {
+  margin-top: 8px;
+}
+
+.list-shop {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.list-shop .items-shop {
+  width: 100px;
+  height: 400px;
+  margin-right: 40px;
+}
+
+.list-shop .items-shop .img_s {
+  width: 100px;
+}
+
+.list-shop .items-shop .img_s:hover {
+  cursor: pointer;
+}
