@@ -312,15 +312,6 @@ a {
   border-radius: 40px;
 }
 
-.body-shop .tool:hover {
-  background-color: #ddd;
-  cursor: pointer;
-}
-
-.body-shop .tool .icon-down {
-  margin-top: 8px;
-}
-
 .list-shop {
   display: flex;
   justify-content: space-evenly;
@@ -356,7 +347,7 @@ a {
 .list-product .item-Pduct {
   width: 100px;
   margin-right: 40px;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .list-product .item-Pduct .img_pd {
@@ -433,4 +424,75 @@ a {
 .tools_ban_Hang .desc_ban {
   margin-left: 10px;
   font-weight: 500;
+}
+
+.list_sanPham {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list_sanPham .item_sp_shop {
+  width: 250px; /* Chiều rộng khung */
+  border-radius: 15px; /* Bo tròn góc */
+  overflow: hidden; /* Ẩn phần tràn ra khỏi khung */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng đổ */
+  background-color: #fff;
+  margin: 0 20px 20px 0;
+}
+
+.list_sanPham .item_sp_shop:hover {
+  cursor: pointer;
+}
+.list_sanPham .item_sp_shop .img_sp_shop {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.list_sanPham .item_sp_shop .mota_sp_shop {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.list_sanPham .item_sp_shop .mota_sp_shop .mota {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Số dòng muốn hiển thị */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Tạo dấu 3 chấm */
+  line-height: 1.2;
+  max-height: calc(1.5em * 3); /* Đảm bảo chiều cao cho 3 dòng */
+}
+
+.list_sanPham .item_sp_shop .footer_sp {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.list_sanPham .item_sp_shop .footer_sp .price {
+  font-weight: 600;
+  color: red;
+}
+
+.lienQuan {
+  display: flex;
+}
+
+.lienQuan .item-LienQuan {
+  width: 200px;
+  background-color: #fff;
+  color: #00b4d8;
+  margin-right: 20px;
+  font-weight: 500;
+  box-shadow: 4px 3px 4px 1px #00b4d8;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+.lienQuan .item-LienQuan:hover {
+  cursor: pointer;
+
+  background-color: #bde0fe;
 }

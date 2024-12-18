@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Figma to HTML</title>
   </head>
-  <body style="height: 10000px">
+  <body>
     <!-- Header -->
     <header class="header fixed">
       <div class="main-content">
@@ -199,9 +199,8 @@
           </div>
           <div class="body-shop">
             <div class="thuongHieu">
-              <div class="tool showList" onclick="ShowList()">
+              <div class="tool">
                 <p class="shops">Thương hiệu</p>
-                <i class="fa-solid fa-chevron-down icon-down"></i>
               </div>
               <ul id="danhSach" class="list-shop">
                 <li class="items-shop">
@@ -267,9 +266,8 @@
               </ul>
             </div>
             <div class="BanChay">
-              <div class="tool showList" onclick="ShowProduct()">
+              <div class="tool">
                 <p class="shops">Bán chạy</p>
-                <i class="fa-solid fa-chevron-down icon-down"></i>
               </div>
               <ul id="danhSachSP" class="list-product">
                 <li class="item-Pduct">
@@ -436,38 +434,115 @@
             <div class="CuaHang">
               <div class="tool">
                 <p class="shops">Cửa hàng của tôi</p>
-                <i class="fa-solid fa-chevron-down icon-down"></i>
               </div>
+              <div class="tools_ban_Hang">
+                <div class="itemsBH dangBan">
+                  <i class="fa-solid fa-circle-plus"></i>
+                  <p class="desc_ban">Thêm hàng</p>
+                </div>
+                <div class="itemsBH chinhGia">
+                  <i class="fa-solid fa-store"></i>
+                  <p class="desc_ban">Kệ hàng</p>
+                </div>
+                <div class="itemsBH chinhGia">
+                  <i class="fa-solid fa-trash"></i>
+                  <p class="desc_ban">Xoá</p>
+                </div>
+                <div class="itemsBH danhGia">
+                  <i class="fa-solid fa-screwdriver-wrench"></i>
+                  <p class="desc_ban">Sửa</p>
+                </div>
+                <div class="itemsBH danhGia">
+                  <i class="fa-solid fa-money-check-dollar"></i>
+                  <p class="desc_ban">Đã bán</p>
+                </div>
+                <div class="itemsBH danhGia">
+                  <i class="fa-solid fa-eye"></i>
+                  <p class="desc_ban">Lượt truy cập</p>
+                </div>
+                <div class="itemsBH danhGia">
+                  <i class="fa-regular fa-star-half-stroke"></i>
+                  <p class="desc_ban">Đánh giá</p>
+                </div>
+              </div>
+              <ul class="list_sanPham">
+                <li class="item_sp_shop">
+                  <img
+                    src="./assets/img/Nuoc-Hoa-Dolce-Gabbana-The-One-For-Men-mifashop-5.jpg"
+                    alt="Nước hoa"
+                    class="img_sp_shop"
+                  />
+                  <div class="mota_sp_shop">
+                    <p class="mota">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Sapiente inventore fugiat explicabo magni animi debitis
+                      non nemo cupiditate distinctio asperiores quo tenetur
+                      dolorem iste veniam dolor cum id, molestiae laborum!
+                    </p>
+                    <div class="footer_sp">
+                      <p class="da_ban">Đã bán: 56</p>
+                      <p class="price">100.000đ</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="item_sp_shop">
+                  <img
+                    src="./assets/img/Nuoc-Hoa-Dolce-Gabbana-The-One-For-Men-mifashop-5.jpg"
+                    alt="Nước hoa"
+                    class="img_sp_shop"
+                  />
+                  <div class="mota_sp_shop">
+                    <p class="mota">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Sapiente inventore fugiat explicabo magni animi debitis
+                      non nemo cupiditate distinctio asperiores quo tenetur
+                      dolorem iste veniam dolor cum id, molestiae laborum!
+                    </p>
+                    <div class="footer_sp">
+                      <p class="da_ban">Đã bán: 56</p>
+                      <p class="price">100.000đ</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="item_sp_shop">
+                  <img
+                    src="./assets/img/Nuoc-Hoa-Dolce-Gabbana-The-One-For-Men-mifashop-5.jpg"
+                    alt="Nước hoa"
+                    class="img_sp_shop"
+                  />
+                  <div class="mota_sp_shop">
+                    <p class="mota">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Sapiente inventore fugiat explicabo magni animi debitis
+                      non nemo cupiditate distinctio asperiores quo tenetur
+                      dolorem iste veniam dolor cum id, molestiae laborum!
+                    </p>
+                    <div class="footer_sp">
+                      <p class="da_ban">Đã bán: 56</p>
+                      <p class="price">100.000đ</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
             </div>
-            <div class="tools_ban_Hang">
-              <div class="itemsBH dangBan">
-                <i class="fa-solid fa-circle-plus"></i>
-                <p class="desc_ban">Thêm hàng</p>
+            <div class="LienQuan">
+              <div class="tool">
+                <p class="shops">Liên quan</p>
               </div>
-              <div class="itemsBH chinhGia">
-                <i class="fa-solid fa-store"></i>
-                <p class="desc_ban">Kệ hàng</p>
-              </div>
-              <div class="itemsBH chinhGia">
-                <i class="fa-solid fa-trash"></i>
-                <p class="desc_ban">Xoá</p>
-              </div>
-              <div class="itemsBH danhGia">
-                <i class="fa-solid fa-screwdriver-wrench"></i>
-                <p class="desc_ban">Sửa</p>
-              </div>
-              <div class="itemsBH danhGia">
-                <i class="fa-solid fa-money-check-dollar"></i>
-                <p class="desc_ban">Đã bán</p>
-              </div>
-              <div class="itemsBH danhGia">
-                <i class="fa-solid fa-eye"></i>
-                <p class="desc_ban">Lượt truy cập</p>
-              </div>
-              <div class="itemsBH danhGia">
-                <i class="fa-regular fa-star-half-stroke"></i>
-                <p class="desc_ban">Đánh giá</p>
-              </div>
+              <ul class="lienQuan">
+                <li class="item-LienQuan">
+                  <i class="fa-solid fa-gem"></i>
+                  Trang sức
+                </li>
+                <li class="item-LienQuan">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  Túi sách
+                </li>
+                <li class="item-LienQuan">
+                  <i class="fa-solid fa-shirt"></i>
+                  Áo
+                </li>
+              </ul>
             </div>
           </div>
         </div>

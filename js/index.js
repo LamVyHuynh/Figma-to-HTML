@@ -1,14 +1,3 @@
-function ShowList() {
-  // tự động đóng mở
-  document.getElementById("danhSach").classList.toggle("unShow");
-}
-
-function ShowProduct() {
-  // tự động đóng mở
-  document.getElementById("danhSachSP").classList.toggle("unShow");
-  document.getElementById("seeMore").classList.toggle("unShow");
-}
-
 const ListProduct = document.querySelector(".list-product");
 const SeeMore = document.querySelector(".see_more");
 const iconShowDown = document.querySelector(".icon-see_down");
