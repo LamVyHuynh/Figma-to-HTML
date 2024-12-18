@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
@@ -17,6 +18,10 @@ body {
 }
 .bgc_yellow_nhat {
   background-color: #f8f0dc;
+}
+
+.bgc_yellow_dam {
+  background-color: #ebac00;
 }
 .ds {
   display: flex;
@@ -333,18 +338,25 @@ a {
 
 .list-shop .items-shop .img_s:hover {
   cursor: pointer;
-  width: 110px;
+  transform: scale(1.2);
 }
 
 .list-product {
   display: flex;
-
   margin-top: 20px;
+  flex-wrap: wrap;
+  max-height: 280px;
+  overflow: hidden;
+}
+
+.hieuUngShow {
+  transition: max-height 0.5s ease; /* Hiệu ứng mở rộng */
 }
 
 .list-product .item-Pduct {
   width: 100px;
   margin-right: 40px;
+  margin-top: 30px;
 }
 
 .list-product .item-Pduct .img_pd {
@@ -356,10 +368,69 @@ a {
 
 .list-product .item-Pduct .img_pd:hover {
   cursor: pointer;
-  height: 110px;
-  width: 110px;
+  transform: scale(1.2);
+}
+
+.showListPr {
+  max-height: 1000px;
 }
 
 .unShow {
   display: none;
+}
+
+.see_more {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #999;
+  background-color: #fff;
+  box-shadow: 3px 3px 6px 3px #ddd;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.see_more:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.CuaHang {
+  margin-top: 30px;
+}
+
+.tools_ban_Hang {
+  margin-top: 10px;
+  display: flex;
+}
+
+.tools_ban_Hang .itemsBH {
+  display: flex;
+  font-size: 20px;
+  background-color: #fff;
+  width: 200px;
+  height: 50px;
+  box-shadow: 1px 1px 1px 1px #999;
+  margin-right: 10px;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.tools_ban_Hang .itemsBH:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.tools_ban_Hang .dangBan {
+  background-color: #ebac00;
+}
+.tools_ban_Hang .desc_ban {
+  margin-left: 10px;
+  font-weight: 500;
 }
